@@ -1,14 +1,10 @@
-# Compiler files
+node_modules/
+.env
+*.key
+*.env
+private.key
 cache/
 out/
+broadcast/
+.DS_Store
 
-# Ignores development broadcast logs
-!/broadcast
-/broadcast/*/31337/
-/broadcast/**/dry-run/
-
-# Docs
-docs/
-
-# Dotenv file
-.env
